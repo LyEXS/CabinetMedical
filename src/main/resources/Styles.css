@@ -1,0 +1,90 @@
+/* General styling */
+.root {
+    -fx-font-family: "Arial, Helvetica, sans-serif";
+    -fx-font-size: 13px;
+    -fx-background-color: #0A0061; /* Fond sombre élégant */
+}
+
+/* Navigation bar */
+.hbox {
+    -fx-background-color: #3F5FFF; /* Bleu vif élégant */
+    -fx-padding: 10px;
+    -fx-alignment: center;
+    -fx-spacing: 5px;
+}
+
+.button {
+    -fx-background-color: #2BDCFE; /* Bleu cyan */
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-padding: 5 12;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 2, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #3F5FFF; /* Bleu plus vif au survol */
+}
+
+.button:pressed {
+    -fx-background-color: #B016F2; /* Violet foncé au clic */
+}
+
+/* TableView styling */
+.table-view {
+    -fx-background-color: #0A0061;
+    -fx-background-radius: 5px;
+}
+
+.table-column-header {
+    -fx-background-color: #3F5FFF; /* Bleu vif pour les colonnes */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.table-cell {
+    -fx-text-fill: #333;
+    -fx-font-size: 12px;
+    -fx-padding: 8px;
+}
+
+/* Form elements */
+.text-field, .combo-box, .date-picker {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 5px;
+    -fx-padding: 6;
+}
+
+.text-field:focused, .combo-box:focused, .date-picker:focused {
+    -fx-background-color: #F5F5F5; /* Légère mise en avant au focus */
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #2BDCFE; /* Cyan pour les labels */
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+/* Scene background */
+.border-pane {
+    -fx-background-color: #0A0061; /* Fond sombre uniforme */
+}
+
+/* Scrollbars */
+.scroll-bar .thumb {
+    -fx-background-color: #2BDCFE;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #3F5FFF;
+}
+
+/* Cards (optional for modular UI elements) */
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-padding: 12px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 2);
+}
